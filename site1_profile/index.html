@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <style>
+        h2 {
+            text-align: center;
+            text-decoration:underline solid  #000;
+            margin: 10%;
+        }
+        h3 {
+            font-size: 1rem;
+        }
+        P {
+            font-size: 0.7em;
+        }
+        a {
+            text-decoration: none;
+        }
+        li {
+            list-style: none;
+        }
+        img {
+            max-width: 100%;
+        }
+        .header_navi > li {
+            float: right;
+            padding-right: 2.5em;
+        }
+        .header_navi li:last-child {
+            padding-right: 20em;
+        }
+        .header_font_container {
+            padding-right: 20vw;
+        }
+        .clear_both {
+            clear: both;
+        }
+        .main_image_container > img {
+            height: 600px;
+            width: 100vw;
+            object-fit: cover;
+        }
+        .box_center {
+            margin: 0 auto;
+        }
+        .about_box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 40vw;
+        }
+        .about_container {
+            flex-direction: row;
+        }
+        .about_box > img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 30px;
+        }
+        .about_text_box {
+            text-align: left;
+        }
+        .bicycle_section{
+            padding: 0 20%;
+            margin: 0 auto 100px auto;
+            text-align: center;
+        }
+        .bicycle_box {
+            display: flex;
+            justify-content: space-between;
+        }
+        .bicycle_box > li {
+            width: 32%;
+        }
+        .footer {
+            text-align: center;
+        }
+        @media(max-width: 600px) {
+            .about_box {
+                display: flex;
+                flex-direction: column;
+                max-width: 100vw;
+            }
+            .about_text_box {
+                text-align: center;
+            }
+           .bicycle_section {
+                padding:0 4%;
+                margin:0;
+                text-align: center;
+            }
+            .bicycle_box {
+                display:flex;
+                flex-direction: column;
+                padding-left: 0;
+            }
+            .bicycle_box > li {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="header_font_container">
+            <ul class="header_navi">
+                <li><a href="#Bicycle">Bicycle</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="./index.html"><img src="img/logo.svg" width="100"></a></li>
+            </ul>
+        </div>  
+    </div>
+    <div class="clear_both">
+        <div class="main_image_container">
+            <img src="img/mainvisual.jpg">
+        </div>
+    </div>
+    <section>
+        <h2 id="About">About</h2>
+        <div class="box_center about_box">
+            <img src="img/about.jpg">
+            <div class="about_text_box">
+                <h3>KAKERU MIYAICHI</h3>
+                <p>
+                    テキストテキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキストテキスト
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="bicycle_section">
+        <h2 id="Bicycle">Bicycle</h2>
+        <ul class="bicycle_box">
+            <li>
+                <img src="img/bicycle1.jpg">
+                <h3>タイトルタイトル</h3>
+                テキストテキストテキスト
+            </li>
+            <li>
+                <img src="img/bicycle2.jpg">
+                <h3>タイトルタイトル</h3>
+                テキストテキストテキスト
+            </li>
+            <li>
+                <img src="img/bicycle3.jpg">
+                <h3>タイトルタイトル</h3>
+                テキストテキストテキスト
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <p>©2020 Profile</p>
+    </footer>
+</body>
