@@ -103,7 +103,12 @@ body {
     }
     .index_box {
         border: 1px solid #000;
-        padding: 50px 130px 20px 130px;
+        padding: 30px;
+        width: 95%;
+    }
+    .index_ol {
+        margin: 0 auto;
+        display: table;
     }
     .index_container {
         margin:50px auto 50px auto;
