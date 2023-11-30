@@ -44,20 +44,41 @@ img {
 .main_flex_container {
     display: flex;
     flex-wrap:wrap;
+    width: 500px;
 }
-.main_flex_container > div {
+
+.img_container {
     width: 500px;
 }
 .main_flex_text_box {
     display: flex;
     flex-direction: column;
     padding: 60px;
+    width: 500px;
 }
 .text_title {
     margin-bottom: 5px;
 }
 .text_sub_title {
     margin-bottom: 25px;
+}
+.top_box {
+    display: flex;
+    margin-bottom: 50px;
+}
+.under_box {
+    display: flex;
+    margin-bottom: 50px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer > img {
+    width: 120px;
+    vertical-align: bottom;
+    padding-bottom: 3px;
 }
 
 @media(max-width:767px) {
