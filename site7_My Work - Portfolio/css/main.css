@@ -1,0 +1,41 @@
+body {
+    font-size:0.9rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.inner {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.header_flex_box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.header_link_box {
+    padding: 10px 0;
+}
+.header_link_box > a {
+    margin-left: 20px;
+    text-decoration: none;
+    color:black;
+}
+.header_link_box > a > img {
+    width: 20px;
+}
+.header_logo_box {
+    padding: 10px 0;
+}
+.main_visual {
+    margin-top: 100px;
+}
+.main_visual > img {
+    height: 420px;
+    width: auto;
+    object-fit: cover;
+}
