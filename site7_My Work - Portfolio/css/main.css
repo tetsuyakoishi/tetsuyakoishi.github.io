@@ -39,3 +39,111 @@ img {
     width: auto;
     object-fit: cover;
 }
+.section_title {
+    text-align: center;
+    margin-top: 80px;
+}
+.section_works_title {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.section_news_title {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.section_contact_title {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px; 
+}
+.about_text_box {
+    margin-top: 80px;   
+}
+.about_text_box > p:nth-child(1) {
+    margin-bottom: 40px;
+}
+.about_text_box > p:last-child {
+    margin-bottom: 40px;
+}
+.works_top_image_box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.works_bottom_image_box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.works_top_image_box > img {
+    width: 31%;
+}
+.works_bottom_image_box > img {
+    width: 31%;
+}
+.news_box {
+    display: flex;
+    flex-wrap:wrap;
+    border-top:1px solid #c8c8c8;
+}
+.news_box > dt {
+    border-bottom: 1px solid #c8c8c8;
+    width: 20%;
+    padding: 15px;
+}
+.news_box > dd {
+    border-bottom: 1px solid #c8c8c8;
+    width:80%;
+    padding: 15px;
+}
+.input_box {
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.input_box > dt {
+    width: 15%;
+}
+.input_box > dd {
+    width: 85%;
+    margin-bottom: 10px;
+}
+.input_box > dd > input {
+    border: 1px solid #c8c8c8;
+    width: 100%;
+    line-height: 2;
+}
+.input_box > dd > textarea {
+    height: 10rem;
+    width: 100%;
+    border: 1px solid #c8c8c8;
+}
+.submit_button {
+    text-align: center;
+}
+.submit_button > input {
+    background: black;
+    color: white;
+    width: 200px;
+    height: 60px;
+    margin: 20px 0 130px 0;
+}
+.submit_button > input:hover {
+    background: white;
+    color:black;
+    border:1px solid black;
+}
+.footer {
+    background: black;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+}
+.footer > span {
+    color: white;
+    font-size:0.8em;
+}
