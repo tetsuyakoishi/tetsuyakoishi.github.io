@@ -2,7 +2,7 @@ img {
     max-width: 100%;
 }
 body {
-    font-family: "Raleway";
+    font-family: "Raleway",sans-serif;
 
 }
 a {
@@ -38,6 +38,85 @@ a {
 .header_border {
     border:none;
     border-bottom:1px solid #a2a1a1;
+}
+.flex_main_box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.flex_column {
+    display: flex;
+    flex-direction: column;
+    width:43%;
+}
+.column_title {
+    font-weight: bold;
+    font-size:26px;
+}
+.title_border {
+    border-top: 1px solid #a2a1a1;
+    border-bottom:1px solid #a2a1a1;
+    padding: 10px 10px 10px 0;
+}
+.left_image_box {
+    width: 50%;
+}
+.column_title_p {
+    font-size: 9px;
+    margin: 30px 0;
+    line-height: 2;
+}
+.value_p {
+    font-size: 0.75rem;
+    font-weight: bold;
+    line-height: 1.9;
+    color: #333;
+    margin-bottom: 30px;
+}
+.order_table {
+    font-size:0.75rem;
+    font-weight: bold;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+.order_table > tbody > tr > td {
+    padding: 10px;
+    border-top: 1px solid  #a2a1a1;
+    border-right: 1px solid  #a2a1a1;
+    text-align: center;
+}
+.order_table > tbody > tr > td:last-child {
+    border-right:none;
+}
+.order_table select {
+    border:1px solid  #a2a1a1;
+    width: 100%;
+    appearance: menulist;
+    padding: 0 10px;
+}
+.color {
+    padding: 10px;
+    text-align: center;
+    border-right: 1px solid  #a2a1a1 ;
+}
+.size {
+    padding: 10px;
+    text-align: center;
+    border-right: 1px solid  #a2a1a1
+}
+.quantity {
+    width: 60%;
+}
+.add_to_cart {
+    display: inline-block;
+    padding: 20px;
+    background-color: #464646;
+    color: white;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 0.75rem;
+    font-weight: bold;
 }
 @media(max-width:896px) {
 
