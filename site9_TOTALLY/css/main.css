@@ -1,0 +1,44 @@
+img {
+    max-width: 100%;
+}
+body {
+    font-family: "Raleway";
+
+}
+a {
+    text-decoration: none;
+    color:#000;
+}
+.inner {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.contents_inner {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.logo_box {
+    text-align: center;
+    width: 120px;
+    margin: 30px auto;
+}
+.header_flex_box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size:0.75rem;
+}
+.header_link_box_left > a {
+    margin-right: 10px;
+}
+.header_link_box_right > a {
+    margin-left: 10px;
+}
+.header_border {
+    border:none;
+    border-bottom:1px solid #a2a1a1;
+}
+@media(max-width:896px) {
+
+}
