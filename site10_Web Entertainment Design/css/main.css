@@ -1,0 +1,56 @@
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+body {
+    font-size: 0.75rem;
+}
+.inner {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+li {
+    list-style: none;
+}
+.link_list {
+
+}
+.link_list > li {
+    display: inline;
+    font-size:0.875rem;
+    margin-right: 30px;
+}
+.header_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(233, 233, 233);
+    height: 80px;
+}
+
+.toiawase_btn {
+    border:1px solid #000;
+    padding: 30px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: 200px;
+    text-align: center;
+}
+.toiawase_btn:hover {
+    opacity: 0.7;
+}
+.wed {
+    font-size:1.50rem;
+    letter-spacing: 10px;
+}
+.main_visual > img {
+    height: calc(100vh - 80px);
+    object-fit: cover;
+    width: 100%;
+}
