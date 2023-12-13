@@ -1,0 +1,49 @@
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+body {
+    writing-mode: vertical-rl;
+    font-family: 'Noto Serif JP', serif;;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color:white;
+}
+.header {
+    background-image:url("../img/mainvisual-pc.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+.header_link {
+    padding: 80px 80px 0 0;
+}
+.header_link > li {
+}
+.header_link > li:nth-child(n+2) {
+    margin-right: 20px;
+}
+.header_link > li:first-child {
+    margin-left: 40px;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+.online_store {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    background-color: rgb(207, 207, 207,0.2);
+    padding: 8px;
+}
+.online_link {
+    padding: 14px 14px;
+    border: 1px solid white;
+    display: block;
+}
