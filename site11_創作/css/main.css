@@ -3,8 +3,9 @@ img {
     vertical-align: bottom;
 }
 body {
-    writing-mode: vertical-rl;
-    font-family: 'Noto Serif JP', serif;;
+    font-family: 'Noto Serif JP', serif;
+    background-color: #e6e2d7;
+
 }
 ul {
     list-style: none;
@@ -21,6 +22,7 @@ a {
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
+    writing-mode: vertical-rl;
 }
 .header_link {
     padding: 80px 80px 0 0;
@@ -46,4 +48,44 @@ a {
     padding: 14px 14px;
     border: 1px solid white;
     display: block;
+}
+.background_tya {
+
+}
+.inner {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding:0 10px;
+}
+.news {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.news_ruby {
+    display: block;
+    margin-left:15px;
+    font-size:0.875rem;
+}
+.news_section_title {
+    writing-mode: vertical-rl;
+    font-weight: normal;
+    line-height: 1;
+}
+.news_title {
+    display: block;
+    font-size: 2.25rem;
+    letter-spacing: 0.1em;
+}
+.list {
+    padding: 80px 100px 0 0;
+    writing-mode: vertical-rl;
+}
+.list dt {
+    border-right: solid 1px #000;
+    font-size: 0.75rem;
+    padding: 15px 30px 15px 5px;
+}
+.list dd {
+    padding: 15px 0 15px 30px;
 }
