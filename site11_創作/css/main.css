@@ -89,3 +89,39 @@ a {
 .list dd {
     padding: 15px 0 15px 30px;
 }
+.new_value {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.new_value_title_box {
+    writing-mode: vertical-rl;
+    margin-right: 100px;
+}
+.new_value_title_box > span:nth-of-type(1) {
+    font-size:40px;
+}
+.new_value_title_box > span:nth-of-type(2) {
+    display: inline-block;
+    margin-top: 30px;
+}
+.new_value_img_box {
+    max-width: 100%;
+    width: 65%;
+    padding: 100px 0;
+    position: relative;
+}
+.new_value_yellow_box {
+    position: absolute;
+    width: 350px;
+    height: 150px;
+    background-color: rgba(249, 233, 6, 0.6);
+    left: -33px;
+    bottom:-20px;
+    text-align: center;
+    padding: 30px;
+}
+.new_value_yellow_box > p {
+    color: white;
+}
