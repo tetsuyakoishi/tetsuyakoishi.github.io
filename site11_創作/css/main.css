@@ -16,7 +16,7 @@ a {
 }
 .header {
     background-image:url("../img/mainvisual-pc.jpg");
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-position: center top;
     background-repeat: no-repeat;
@@ -124,4 +124,82 @@ a {
 }
 .new_value_yellow_box > p {
     color: white;
+}
+.science {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.science_txt_box {
+    writing-mode:vertical-rl;
+    margin-right: 10px;
+}
+.science_txt_box > span:nth-of-type(1) {
+    font-size:40px;
+}
+.science_txt_box > span:nth-of-type(2) {
+    margin-top: 30px;
+    display: inline-block;
+}
+.science_img_box {
+    position: relative;
+    padding: 100px 0;
+    width: 65%;
+}
+.science_img_text_box {
+    position: absolute;
+    background-color: rgba(242, 51, 124, 0.6);
+    width: 350px;
+    height: 150px;
+    text-align: center;
+    padding: 30px;
+    bottom: -38px;
+    right: -27px;
+}
+.map-wrap {
+}
+.map-wrap iframe {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.footer {
+    background-color: #000;
+}
+
+.footer_inner {
+    padding: 80px 80px 0 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    color: white;
+    width: 100%;
+}
+.footer_toiawase {
+    writing-mode: vertical-rl;
+}
+.footer_sousaku {
+    writing-mode: vertical-rl;
+}
+.footer_link {
+}
+
+.footer_link > li:first-child {
+    margin-left: 80px;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+.footer_link > li:nth-child(n+2) {
+    margin-right: 20px;
+}
+
+.footer_link > li:nth-child(3) {
+    margin-left:80px;
+}
+
+.footer_txt {
+    text-align: center;
+    color:white;
+    padding: 10px;
 }
