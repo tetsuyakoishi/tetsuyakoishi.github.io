@@ -49,9 +49,7 @@ a {
     border: 1px solid white;
     display: block;
 }
-.background_tya {
 
-}
 .inner {
     max-width: 1024px;
     margin: 0 auto;
@@ -202,4 +200,91 @@ a {
     text-align: center;
     color:white;
     padding: 10px;
+}
+
+@media(max-width:768px) {
+    .inner {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding:0 20px;
+    }
+    .header {
+        background-image:url("../img/mainvisual-sp.jpg");
+        width: 100%;
+        height: 100vh;
+        background-position: center top;
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: cover;
+        writing-mode: vertical-rl;
+        padding: 20px;
+    }
+    .header_link {
+        padding:0;
+    }
+    .list {
+        padding: 80px 20px 0 0;
+        writing-mode: vertical-rl;
+    }
+    .list dt {
+        border-right: solid 1px #000;
+        font-size: 0.75rem;
+        padding: 15px 15px 15px 5px;
+    }
+    .list dt:nth-of-type(n+4) {
+        display: none;
+    }
+    .list dd:nth-of-type(n+4) {
+        display: none;
+    }
+    .list dd:nth-last-of-type(3) {
+        border-left:1px solid #000;
+    }
+    .list dd {
+        padding: 15px 0 10px 15px;
+    }
+    .science_img_box {
+        position: relative;
+        padding: 100px 0;
+        width: 90%;
+    }
+    .science_img_text_box {
+        position: absolute;
+        background-color: rgba(242, 51, 124, 0.6);
+        width: 64%;
+        height: auto;
+        text-align: center;
+        padding: 30px;
+        bottom: 28px;
+        right: -10px;
+    }
+
+    .new_value_title_box {
+        writing-mode: vertical-rl;
+        margin-right: 0px;
+    }
+    .new_value_img_box {
+        max-width: 100%;
+        width: 90%;
+        padding: 100px 0;
+        position: relative;
+    }
+    .new_value_yellow_box {
+        position: absolute;
+        width: 64%;
+        height: auto;
+        background-color: rgba(249, 233, 6, 0.6);
+        left: -15px;
+        bottom:70px;
+        text-align: center;
+        padding: 30px;
+    }
+    .footer_inner {
+        padding: 20px 10px 10px 10px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        color: white;
+        width: 100%;
+    }
 }
