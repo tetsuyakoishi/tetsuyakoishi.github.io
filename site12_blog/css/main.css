@@ -67,3 +67,66 @@ li {
 .photo div {
     text-align: center;
 }
+.left_inner {
+    width:70%;
+    padding: 0 20px;
+}
+.right_inner {
+    width:30%;
+    padding: 0 20px;
+}
+.container {
+    display: flex;
+    margin-top: 80px;
+}
+.article {
+
+}
+.article p {
+    padding: 20px;
+}
+.article a {
+    color: #000;
+}
+.article div:nth-of-type(2) {
+    text-align: center;
+}
+.article div a:nth-of-type(1) {
+    color: #000;
+    position: relative;
+}
+
+.article div a:nth-of-type(1):after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: #333;
+    transition: all 200ms ease;
+}
+.article div a:nth-of-type(1):hover::after {
+    opacity: 0;
+    transform: translateY(3px);
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile_img {
+    text-align: center;
+}
+.profile_img img {
+    border-radius: 50%;
+    width: 40%;
+}
+.name_name {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.profile p {
+    font-size:20px;
+}
