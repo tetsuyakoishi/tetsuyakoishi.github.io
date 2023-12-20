@@ -190,14 +190,14 @@ li {
     margin: 30px 0;
 }
 
-.about_list{
+.about_list li{
     position: relative;
-    display: inline-block;
+    display: block;
     padding-left: 12px;
     color: #333;
 }
 
-.about_list li::before{
+.about_list li span::before{
     content: '';
     width: 0;
     height: 0;
