@@ -22,13 +22,18 @@ li {
 .title {
     margin-left: 0;
 }
+.title > span {
+    margin: 15px 0;
+    font-size: 30px;
+    display: inline-block;
+}
 
 .header_links {
     display: flex;
     margin-left: 0;
 }
 .header_links li {
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 .header_links li a {
@@ -37,6 +42,9 @@ li {
 .header_back {
     background-color: #000;
     width: 100%;
+    height: 40px;
+    padding: 5px;
+    font-size: 20px;
 }
 .pickup {
     display: flex;
@@ -110,6 +118,9 @@ li {
     opacity: 0;
     transform: translateY(3px);
 }
+.article h2:nth-child(n+1) {
+    margin-top: 40px;
+}
 .profile {
     display: flex;
     flex-direction: column;
@@ -161,6 +172,7 @@ li {
 }
 .footer {
     background-color: rgb(243, 242, 242);
+    margin-top: 100px;
 }
 .footer_container {
     display:flex;
