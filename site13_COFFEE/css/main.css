@@ -64,3 +64,39 @@ html {
     font-size:100px;
     color:white;
 }
+.inner {
+    max-width: 1000px;
+    padding: 0 16px;
+}
+.menu_column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.midashi {
+    border-bottom: 6px solid red;
+    display: inline-block;
+    font-size: 2.5rem;
+    margin-bottom: 70px;
+}
+
+.menu_row {
+
+}
+.menu_row > span:first-child {
+    border-bottom:1px dotted #000;
+    width: 80%;
+    display: inline-block;
+    text-align: left;
+}
+.menu_row > span:last-child {
+    width: 20%;
+    display:inline-block;
+}
+
+.menu_left {
+    width: 50%;
+    padding: 0 30px;
+    text-align: center;
+    border-right: 1px solid #000;
+}
