@@ -67,10 +67,11 @@ html {
 .inner {
     max-width: 1000px;
     padding: 0 16px;
+    margin: 0 auto;
 }
-.menu_column {
+.menu_row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 70px;
 }
 .midashi {
@@ -81,7 +82,7 @@ html {
 }
 
 .menu_row {
-
+    margin:20px 0;
 }
 .menu_row > span:first-child {
     border-bottom:1px dotted #000;
@@ -92,11 +93,24 @@ html {
 .menu_row > span:last-child {
     width: 20%;
     display:inline-block;
+    padding-top: 10px;
 }
 
 .menu_left {
     width: 50%;
     padding: 0 30px;
-    text-align: center;
+    margin: 0 auto;
     border-right: 1px solid #000;
+    text-align: center;
+}
+
+.menu_right {
+    width: 50%;
+    padding: 0 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h3.midashi {
+    margin-top: 70px;
 }
