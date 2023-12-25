@@ -47,10 +47,13 @@ a {
     color: black;
 }
 .footer {
-    margin-top: 100px;
     display:flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    position: sticky;
+    top:100vh;
+    bottom:0;
+    right: 0;
+    left: 0;
 }
 .footer_link {
     display: flex;
@@ -97,6 +100,20 @@ a {
 .product_title {
     margin-bottom: 30px;
 }
+.pager_box {
+    margin: 0 auto;
+    width: 10%;
+}
+.pager {
+    display: flex;
+} 
+.pager li a {
+    color: black;
+}
+.pager li {
+    padding: 0 20px;
+}
+
 
 @media(max-width:900px) {
     .wrapper {
