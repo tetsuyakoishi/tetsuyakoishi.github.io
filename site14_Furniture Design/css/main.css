@@ -1,6 +1,9 @@
 img {
     max-width: 100%;
 }
+body {
+    min-height: 100vh;
+}
 .inner {
     max-width: 1360px;
     padding: 0 40px;
