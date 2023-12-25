@@ -50,6 +50,7 @@ a {
     margin-top: 100px;
     display:flex;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 .footer_link {
     display: flex;
@@ -63,6 +64,38 @@ a {
 }
 .footer_right > span {
     font-size:20px;
+}
+.wrapper p {
+    color: black;
+}
+.wrapper a:hover {
+    transition: 0.7s;
+    opacity: 0.7;
+}
+.product {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.product_left {
+    width: 50%;
+}
+.product_right {
+    width: 40%;
+    font-size:22px;
+}
+.product_right p:first-child {
+    margin-bottom: 30px;
+}
+.back {
+    text-align: center;
+    margin-top:50px;
+}
+.back a {
+    color: black;
+}
+.product_title {
+    margin-bottom: 30px;
 }
 
 @media(max-width:900px) {
