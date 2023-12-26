@@ -21,6 +21,8 @@ li {
     height: 80px;
     position: fixed;
     z-index: 10;
+    left: 0;
+    right: 0;
 }
 .header > a {
     color: black;
@@ -88,6 +90,7 @@ a {
     display: flex;
     justify-content: space-between;
     width: 70%;
+    padding-top: 80px;
 }
 .product_left {
     width: 50%;
@@ -129,6 +132,36 @@ a {
     font-size: 20px;
     width: 50%;
     line-height: 2;
+}
+.company_div {
+    width: 50%;
+    font-size:20px;
+    padding-top:80px;
+}
+.company_dl {
+    display: flex;
+    flex-wrap:wrap;
+}
+.company_dl > dt {
+    width: 30%;
+    border-bottom: 1px dotted grey;
+    padding: 20px;
+}
+.company_dl > dd {
+    width: 70%;
+    border-bottom: 1px dotted grey;
+    padding: 20px;
+}
+.company_dl dt:nth-last-of-type(-n+1) {
+    border-bottom:none;
+}
+.company_dl dd:nth-last-of-type(-n+1) {
+    border-bottom:none;
+}
+.map {
+    margin-top: 20px;
+    margin-bottom: 60px;
+
 }
 
 
