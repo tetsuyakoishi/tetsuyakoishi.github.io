@@ -1,0 +1,33 @@
+html {
+    background-color: #ebe4cd;
+    font-size:22px;
+}
+.bg-back {
+    background-color: #ebe4cd;    
+}
+.navbar-brand img {
+    max-width: 250px;
+}
+#header-nav {
+
+}
+#main-background {
+    background: url(../img/s005-bg-001.jpg);
+    width: 100vw;
+    overflow: hidden;
+    z-index: -1;
+    height: 100%;
+    position: absolute;
+}
+#main-over-message {
+    max-width: 670px;
+    background-color: rgba(235,228,205,0.8);
+    border: double 4px #554426;
+
+}
+.font-l {
+    font-size: 28px;
+}
+.font-s {
+    font-size:20px;
+}
