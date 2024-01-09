@@ -15,9 +15,7 @@ html {
     background: url(../img/s005-bg-001.jpg);
     width: 100vw;
     overflow: hidden;
-    z-index: -1;
-    height: 100%;
-    position: absolute;
+    height: calc(100vh - 56px);
 }
 #main-over-message {
     max-width: 670px;
@@ -25,9 +23,32 @@ html {
     border: double 4px #554426;
 
 }
+#information h3::before {
+    background-image: url(../img/s005-logo002.png);
+    width: 60px;
+    height: 40px;
+    display: inline-block;
+    content: '';
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.big-border {
+    border-bottom:3px solid #554426;
+}
+.bg-main {
+    background-color: #554426;
+}
 .font-l {
     font-size: 28px;
 }
 .font-s {
     font-size:20px;
+}
+.card {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+    border: 0;
+    font-weight: 400
 }
