@@ -1,0 +1,116 @@
+html {
+    background-color: #f4f9ff;
+}
+body {
+    font-size: 0.875rem;
+}
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.index_wrapper{
+    max-width: 1000px;
+    margin: 8vh auto 10vh auto;
+    padding: 0 40px;
+}
+.main_wrapper{
+    max-width: 1000px;
+    margin: 8vh auto 10vh auto;
+}
+.contents_wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 10vh;
+}
+.footer_wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px 0;
+    font-size: 0.625rem;
+}
+img {
+    max-width: 100%;
+}
+.white_space {
+    background-color: white;
+}
+.flex_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex_detail_container {
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+.detail_img {
+    width: 270px;
+    margin-right: 60px;
+}
+.index_box {
+    text-align: left;
+}
+.index_box > ol > li {
+    padding-bottom: 3vh;
+}
+
+.detail_title {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size:1.125rem;
+}
+.detail_box {
+    width: 270px;
+}
+
+.detail_flex {
+    display: flex;
+    flex-wrap: wrap;
+    border-top:solid 1px #dedede;
+    border-bottom: solid 1px #dedede;
+    padding: 16px 0;
+    margin-bottom: 25px;
+}
+.detail_flex > dt {
+    width: 25%;
+}
+.detail_flex > dd {
+    width: 75%;
+}
+.detail_box_text {
+    margin-bottom: 20px;
+}
+.detail_link {
+    color: #333;
+}
+@media(max-width:1024px) {
+    .index_ol {
+        margin-left: 20px;
+    }
+    .index_wrapper{
+        max-width: 1000px;
+        margin: 8vh auto 10vh auto;
+        padding: 0 40px;
+    }
+    .main_wrapper {
+        max-width: 1000px;
+        margin: 8vh auto 10vh auto;
+        padding: 0 10px;       
+    }
+    .wrapper {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 0 40px;     
+    }
+    .flex_detail_container {
+        display: flex;
+        flex-direction: column;
+    }
+    .detail_img {
+        width: 100%;
+    }
+    .detail_box {
+        width: 100%;
+    }
+}
