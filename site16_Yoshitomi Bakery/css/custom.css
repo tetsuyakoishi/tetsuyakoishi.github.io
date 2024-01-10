@@ -17,13 +17,24 @@ html {
     overflow: hidden;
     height: calc(100vh - 56px);
 }
+#background_second {
+    background: url(../img/s005-bg101.jpg);
+    width: 100vw;
+    overflow: hidden;
+    height: calc(100vh);
+}
 #main-over-message {
     max-width: 670px;
     background-color: rgba(235,228,205,0.8);
     border: double 4px #554426;
-
 }
-#information h3::before {
+#background_second_over {
+    background-color: rgba(235,228,205,0.7);
+    border: solid 4px rgba(235,228,205,0.7);
+    border-radius: 20px;
+}
+
+.before_img h3::before {
     background-image: url(../img/s005-logo002.png);
     width: 60px;
     height: 40px;
@@ -51,4 +62,15 @@ html {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
     border: 0;
     font-weight: 400
+}
+#news_btn {
+
+}
+#news_btn:hover {
+    background-color: #554426;
+    color: #000!important;    
+}
+
+.right_img {
+    border-radius: 10px;
 }
