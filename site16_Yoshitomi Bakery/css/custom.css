@@ -1,6 +1,10 @@
 html {
     background-color: #ebe4cd;
     font-size:22px;
+    
+}
+body {
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 .bg-back {
     background-color: #ebe4cd;    
@@ -86,4 +90,49 @@ html {
 .detail_btn:hover {
     background-color: #554426;
     color: orange !important;
+}
+
+.mb-10 {
+    margin-bottom: 6rem;
+}
+.pt-10 {
+    padding-top: 6rem;
+}
+
+.footer {
+    height: 730px;
+    width: 100%;
+}
+.footer-2 {
+    height: 730px;
+    width: 100%;
+}
+.nohr {
+    height: 40px;
+    width: 100%;
+    border: 1px solid transparent;
+    margin: 0;
+    padding: 0;
+}
+.img-radius {
+    border-radius: 10px;
+}
+.text-orange {
+    color: orange;
+}
+.bg-orange {
+    background-color: orange;
+}
+.hover_white {
+
+}
+.hover_white:hover{
+    color: #fff!important;
+    background-color: orange;
+}
+.gmap {
+    padding-bottom: 55%;
+    overflow: hidden;
+    position: relative;
+    height: 0;
 }
