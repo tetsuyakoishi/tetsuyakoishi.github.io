@@ -58,6 +58,9 @@ body {
 .big-border {
     border-bottom:3px solid #554426;
 }
+.big-border-white {
+    border-bottom:1px solid #fff;    
+}
 .bg-main {
     background-color: #554426;
 }
@@ -104,7 +107,7 @@ body {
     width: 100%;
 }
 .footer-2 {
-    height: 730px;
+    height: 670px;
     width: 100%;
 }
 .nohr {
@@ -135,4 +138,20 @@ body {
     overflow: hidden;
     position: relative;
     height: 0;
+}
+.footer_logo {
+    max-width: 300px;
+}
+.address_list {
+    border:1px solid #fff;
+    border-radius: 10px;
+
+}
+.footer_nav {
+    list-style-type: disc;
+    margin-left: 1.7rem;
+    padding-left: 0!important;
+}
+.footer_nav a {
+    font-size:1rem;
 }
